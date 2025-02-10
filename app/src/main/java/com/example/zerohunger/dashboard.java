@@ -58,7 +58,7 @@ public class Dashboard extends AppCompatActivity {
         foodmapCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, FoodMapActivity.class);
+                Intent intent = new Intent(Dashboard.this, food_map.class);
                 startActivity(intent);
             }
         });
@@ -75,7 +75,7 @@ public class Dashboard extends AppCompatActivity {
         aboutusCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, AboutusActivity.class);
+                Intent intent = new Intent(Dashboard.this, aboutus.class);
                 startActivity(intent);
             }
         });
