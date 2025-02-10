@@ -76,7 +76,7 @@ public class LoginTab extends Fragment {
 
     // Navigate to Dashboard Activity
     private void navigateToDashboardActivity() {
-        Intent intent = new Intent(getActivity(), Dashboard.class);
+        Intent intent = new Intent(getActivity(), dashboard.class);
         startActivity(intent);
         getActivity().finish(); // Finish the LoginTab Activity to prevent returning to it
     }

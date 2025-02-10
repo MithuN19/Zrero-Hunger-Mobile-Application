@@ -11,7 +11,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-public class Dashboard extends AppCompatActivity {
+public class dashboard extends AppCompatActivity {
 
     private CardView donatecard;
     private CardView receiveCard;
@@ -42,7 +42,7 @@ public class Dashboard extends AppCompatActivity {
         donatecard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, DonateActivity.class);
+                Intent intent = new Intent(dashboard.this, DonateActivity.class);
                 startActivity(intent);
             }
         });
@@ -50,7 +50,7 @@ public class Dashboard extends AppCompatActivity {
         receiveCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, ReceivedActivity.class);
+                Intent intent = new Intent(dashboard.this, ReceivedActivity.class);
                 startActivity(intent);
             }
         });
@@ -58,7 +58,7 @@ public class Dashboard extends AppCompatActivity {
         foodmapCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, food_map.class);
+                Intent intent = new Intent(dashboard.this, food_map.class);
                 startActivity(intent);
             }
         });
@@ -66,7 +66,7 @@ public class Dashboard extends AppCompatActivity {
         historycard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, HistoryActivity.class);
+                Intent intent = new Intent(dashboard.this, HistoryActivity.class);
                 startActivity(intent);
             }
         });
@@ -75,7 +75,7 @@ public class Dashboard extends AppCompatActivity {
         aboutusCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, aboutus.class);
+                Intent intent = new Intent(dashboard.this, aboutus.class);
                 startActivity(intent);
             }
         });
@@ -84,7 +84,7 @@ public class Dashboard extends AppCompatActivity {
         logoutCard.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Dashboard.this, MainActivity.class);
+                Intent intent = new Intent(dashboard.this, MainActivity.class);
                 startActivity(intent);
             }
         });
