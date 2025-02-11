@@ -17,12 +17,12 @@ public class DonateActivity extends AppCompatActivity {
 
         // Initialize the UI elements
         TextInputEditText etFoodName = findViewById(R.id.et_food_name);
-        TextInputEditText etFoodItem = findViewById(R.id.et_fooditem);  // Fixed variable to match the ID in XML
+        TextInputEditText etFoodItem = findViewById(R.id.et_fooditem);
         TextInputEditText etQuantity = findViewById(R.id.et_quantity);
         TextInputEditText etPickupAddress = findViewById(R.id.et_pickup_address);
         TextInputEditText etContactNumber = findViewById(R.id.et_contact_number);
         MaterialButton btnSubmit = findViewById(R.id.btn_submit);
-        MaterialButton btnCancel = findViewById(R.id.btn_cancel);  // Cancel button initialization
+        MaterialButton btnCancel = findViewById(R.id.btn_cancel);
 
         // Handle submit button click
         btnSubmit.setOnClickListener(v -> {
