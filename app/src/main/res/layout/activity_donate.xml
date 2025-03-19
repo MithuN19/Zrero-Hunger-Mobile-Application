@@ -72,7 +72,8 @@
                     android:id="@+id/et_food_name"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:background="@drawable/edittext_bkg" />
+                    android:background="@drawable/edittext_bkg"
+                    tools:ignore="SpeakableTextPresentCheck" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Food Items -->
@@ -95,7 +96,8 @@
                     android:id="@+id/et_fooditem"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:background="@drawable/edittext_bkg" />
+                    android:background="@drawable/edittext_bkg"
+                    tools:ignore="SpeakableTextPresentCheck" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Quantity -->
@@ -118,7 +120,8 @@
                     android:id="@+id/et_quantity"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:background="@drawable/edittext_bkg" />
+                    android:background="@drawable/edittext_bkg"
+                    tools:ignore="SpeakableTextPresentCheck" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Pickup Address -->
@@ -141,7 +144,8 @@
                     android:id="@+id/et_pickup_address"
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
-                    android:background="@drawable/edittext_bkg" />
+                    android:background="@drawable/edittext_bkg"
+                    tools:ignore="SpeakableTextPresentCheck" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Contact Number -->
@@ -165,7 +169,8 @@
                     android:layout_width="match_parent"
                     android:layout_height="50dp"
                     android:background="@drawable/edittext_bkg"
-                    android:inputType="phone" />
+                    android:inputType="phone"
+                    tools:ignore="SpeakableTextPresentCheck" />
             </com.google.android.material.textfield.TextInputLayout>
 
             <!-- Buttons -->

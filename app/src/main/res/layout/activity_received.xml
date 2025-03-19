@@ -78,7 +78,8 @@
                 android:id="@+id/et_food_name"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/edittext_bkg"/>
+                android:background="@drawable/edittext_bkg"
+                tools:ignore="SpeakableTextPresentCheck" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- Item Name -->
@@ -107,7 +108,8 @@
                 android:id="@+id/et_item"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/edittext_bkg" />
+                android:background="@drawable/edittext_bkg"
+                tools:ignore="SpeakableTextPresentCheck" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- Date Received -->
@@ -174,7 +176,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@drawable/edittext_bkg"
-                android:inputType="text" />
+                android:inputType="text"
+                tools:ignore="SpeakableTextPresentCheck" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <!-- Buttons -->
